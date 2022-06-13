@@ -5,7 +5,7 @@
 body {
     font-family:"Lucida Sans Unicode", verdana, sans-serif;
     line-height: 1.6;
-    background: #CC7766 url("noise.png");
+    background: #cc7766 url("noise.png");
 }
 .lugar {
     border-color: #CCC #999 #999 #CCC;
@@ -22,8 +22,38 @@ body {
     color: #2C11AF;
     font-weight: bold;
 }
+.lugar img{
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 1px;
+}
+.clear{
+    clear: both;
+}
 a {
     color: #2C88A7;
     text-decoration: none;
 }
-
+.footer{
+    text-align: center;
+    font-size: 12px;
+}
+.notas{
+    background-color: rgba(210,210,210,0.13);
+    padding: 10px;
+    float: right;
+    width: 260px;
+}
+.notas h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+.notas ol{
+    font-size: 12px;
+}
+.eq{
+    float: left;
+    width: 660px;
+}
