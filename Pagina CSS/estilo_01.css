@@ -5,9 +5,10 @@
 body {
     font-family:"Lucida Sans Unicode", verdana, sans-serif;
     line-height: 1.6;
-    background: #cc7766 url("noise.png");
+    background: #93f893 url("img/noise.png");
 }
 .lugar {
+    background-color: rgba(171, 170, 170, 0.26);
     border-color: #CCC #999 #999 #CCC;
     border-style: solid;
     border-width: 1px;
@@ -15,7 +16,7 @@ body {
     padding: 10px;
 }
 .lugar h2,h3 {
-    border-bottom: 1px dashed #5C6818;
+    border-bottom: 1px dashed #9da300;
     margin: 0;
 }
 .lugar a {
@@ -41,7 +42,7 @@ a {
     font-size: 12px;
 }
 .notas{
-    background-color: rgba(210,210,210,0.13);
+    background-color: rgba(210, 210, 210, 0.265);
     padding: 10px;
     float: right;
     width: 260px;
@@ -57,3 +58,22 @@ a {
     float: left;
     width: 660px;
 }
+tr, th, td{
+    border-style: double;
+    border-radius: 10px;
+    border: 2px solid rgb(189, 87, 215);
+}
+table{
+    margin: 0 auto;
+    width:100%;
+}
+.AR{
+    text-align: right;
+}
+.T{
+    width: 18%;
+    text-align: center;
+}
+
+
+
