@@ -1,0 +1,35 @@
+/* .seletor{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.seletor div{
+    background-color: #afa;
+}
+.seletor > div{
+    color: #00f;
+    font-size: 20px;
+} */
+
+.container {
+    display: flex;
+    background-color: dodgerblue;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    /* flex-flow: row wrap; */
+    /* flex-flow: row-reverse; */
+    /* justify-content: space-between; */
+    /* align-items: stretch; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.container > div{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    height: 400px;
+}
+
