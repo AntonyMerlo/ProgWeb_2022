@@ -67,7 +67,7 @@ img:hover{
     grid-template-columns: auto auto auto;
     column-gap: 5px;
 }
-.cont2 > div:nth-child(3), .cont2 > div:nth-child(5), .cont2 > div:nth-child(7){
+.cont2 > div:nth-of-type(2n+3){
     display: grid;
     grid-template-columns: 5fr 1fr;
     grid-gap:10px;
@@ -75,7 +75,7 @@ img:hover{
     margin-bottom: 50px;
     border-bottom: 2px solid rgba(128, 128, 128, 0.315);
 }
-.cont2 > div:nth-child(2), .cont2 > div:nth-child(4), .cont2 > div:nth-child(6){
+.cont2 > div:nth-child(even){
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-gap:10px;
