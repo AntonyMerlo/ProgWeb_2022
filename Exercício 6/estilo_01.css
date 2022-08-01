@@ -1,0 +1,131 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    width:960px;
+    
+}
+body {
+    font-family:"Bebas Neue", cursive;
+    color: black;
+    line-height: 1.6;
+    background: linear-gradient(to bottom,#7CEAB5, #34E691, #29B370);
+}
+.lugar {
+    background-color: rgba(171, 170, 170, 0.26);
+    border-color: #CCC #999 #999 #CCC;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    text-shadow:  2px 2px 2px #e661478a;
+}
+.lugar h2,h3 {
+    border-bottom: 4px dotted #9da300;
+    margin: 0 auto;
+    text-shadow:  2px 2px 2px #e661478a;
+}
+.lugar a, .notas a{
+    color: #2C11AF;
+    font-weight: bold;
+}
+.lugar img{
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 1px;
+}
+.clear{
+    clear: both;
+}
+a {
+    color: #2C88A7;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+}
+.notas{
+    border-color: #CCC #999 #999 #CCC;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(210, 210, 210, 0.265);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.notas h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+.notas ol{
+    font-size: 12px;
+}
+.esquerda{
+    float: left;
+    width: 660px;
+}
+.direita{
+    margin-top: 94px;
+    float: right;
+    width: 260px;
+}
+tr, th, td{
+    border-style: double;
+    border-radius: 10px;
+    border: 2px solid #E66147;
+}
+table{
+    margin: 0 auto;
+    width:100%;
+}
+.AR{
+    text-align: right;
+}
+.T{
+    width: 18%;
+    text-align: center;
+}
+form{
+    margin: 10px 10px 0 0;
+    padding: 1px;
+}
+input[type=radio]{
+    cursor:pointer;
+    
+}
+input[type=text], textarea{
+    width: 98%;
+    padding: 6px;
+    border: 3px solid rgba(171, 170, 170, 0.26);
+    border-radius: 10px;
+}
+input[type=text]:focus,textarea:focus{
+    border:6px solid rgba(210, 210, 210, 0.265);
+}
+input[type=submit]{
+    background-color: #E66147;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+}
+input:focus, textarea:focus{
+    border-color:rgba(243, 9, 231, 0.265) !important;
+    box-shadow: 0 0 5px #35861b;
+    outline: none;
+}
+iframe{
+    border-radius: 10px;
+    border: 1px;
+}
+
