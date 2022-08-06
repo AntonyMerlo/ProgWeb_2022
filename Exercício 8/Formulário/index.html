@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<!-- Considere adicionar um lang -->
 <head>
     <meta charset="utf-8">
     <title>Formulario</title>
@@ -12,27 +13,54 @@
             <br>
             <input type="text" id="nome">
             <br>
+            <!-- O valor do foratributo do labelelemento deve ser o ID de um controle de formulário não oculto.
+            <label for="idade">Idade:</label> -->
             <h2>Idade:</h2>
-            <input type="radio" id="idade1">
-            <label for="idade1">18 ou Menor</label>
-            <br>
-            <input type="radio" id="idade2">
-            <label for="idade2">19-35</label>
-            <br>
-            <input type="radio" id="idade3">
-            <label for="idade3">36-48</label>
-            <br>
-            <input type="radio" id="idade4">
-            <label for="idade4">49 ou Maior</label>
-            <br>
+            <div id="idade">
+                <input type="radio" id="idade1">
+                <label for="idade1">18 ou Menor</label>
+                <br>
+                <input type="radio" id="idade2">
+                <label for="idade2">19-35</label>
+                <br>
+                <input type="radio" id="idade3">
+                <label for="idade3">36-48</label>
+                <br>
+                <input type="radio" id="idade4">
+                <label for="idade4">49 ou Maior</label>
+                <br>
+            </div>
             <label for="profissao">Profissão:</label>
             <br>
             <input type="text" id="profissao">
             <br>
-            <label for="pais">
+            <Label for="pais">País:</Label>
+            <br>
             <select name="pais" id="pais">
                 <option value="brasil">Brasil</option>
+                <option value="alemanha">Alemanha</option>
+                <option value="estadosunidos">Estados Unidos</option>
+                <option value="canada">Canada</option>
+                <option value="argentina">Argentina</option>
+            </select>
+            <br>
+            <label for="interesses">Interesses:</label>
+            <br>
+            <select name="interesses" id="interesses">
+                <option value="dança">Dança</option>
+                <option value="esportes">Esportes</option>
+                <option value="jogos">Jogos</option>
+                <option value="natureza">Natureza</option>
+                <option value="construcao">Construção</option>
+                <option value="outro">Outro</option>
+            </select>
+            <br>
+            <label for="mensagem">Mensagem:</label>
+            <br>
+            <textarea name="text" id="mensagem" cols="40" rows="5"></textarea>
+            <br>
+            <input type="submit" name="Enviar" onclick="alert('Enviado.')">
         </form>
-    <div>
+    </div>
 </body>
 </html>
