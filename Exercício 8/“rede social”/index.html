@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede social</title>
+</head>
+<body>
+    <!-- Cabeçalho do site (nome do site, …); -->
+    <header> 
+        <h1>Rede social</h1> 
+        <!-- Menu (Links para as várias seções do site: amigos, mensagens, …); -->
+        <nav>
+            <ul>
+                <li><a href="#amigos">Amigos</a></li>
+                <li><a href="#postagens">Postagens</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Dados Pessoais (nome, fotografia, …); -->
+    <section>
+        <img src="img/anonimo.jpg" alt="imagem de perfil">
+        <h2>Guilherme Antony</h2>
+        <h3>Telefone: (00) 9-9999-9999</h3>
+    </section>
+    <!-- Postagens (incluindo: texto, data, imagem, número do comentário, …); -->
+    <article id="fotos">
+        <h2>fotos:</h2>
+        <img src="img/anonimo.jpg" alt="foto">
+        <img src="img/img2.jpg" alt="foto">
+        <img src="img/img3.jpg" alt="foto">
+    </article>
+    <article id="Amigos">
+        <h2>Amigos:</h2>
+        <!-- User div caso a seção não tenha titulo -->
+        <div>
+            <a href="#"><img src="img/anonimo.jpg" alt="foto">Geraldo</a>
+            <a href="#"><img src="img/anonimo.jpg" alt="foto">Felipe</a>
+            <a href="#"><img src="img/anonimo.jpg" alt="foto">Henrique</a>
+        </div>
+    </article>
+    <section id="postagens">
+        <h2>OpenIA</h2>
+        <p>Uma inteligencia que cria imagens atravez frases escritas pelo usuario</p>
+        <img src="img/img2.jpg" alt="panda estiloso">
+        <img src="img/img3.jpg" alt="balei espacial">
+        <br>
+        <label for="mensagem">Comentários:</label>
+        <br>
+        <textarea name="text" id="mensagem" cols="40" rows="5"></textarea>
+        <br>
+        <input type="submit" name="Enviar" onclick="alert('Enviado.')">
+    </section>
+    <section>
+        <h2>Mensagens:</h2>
+        <article>
+            <h3>In massa orci</h3>
+            <p>ornare quis nulla ut, faucibus pulvinar eros. Aliquam et nisi arcu.</p>
+        </article>
+        <article>
+            <h3>Mauris pellentesque</h3>
+            <p>dictum ipsum ut dapibus. Proin vehicula nulla hendrerit, dignissim ex quis, eleifend eros.</p> 
+        </article>
+        <article>
+            <h3>Aliquam et urna</h3>
+            <p>vitae metus dictum lacinia. Nam euismod eleifend ipsum. Vivamus sollicitudin eleifend tellus et tempus.</p>
+        </article>
+    </section>
+    <section>
+        <h2>OpenIA</h2>
+        <p>Uma inteligencia que cria imagens atravez frases escritas pelo usuario</p>
+        <img src="img/img2.jpg" alt="panda estiloso">
+        <img src="img/img3.jpg" alt="balei espacial">
+        <br>
+        <label for="mensagem2">Comentários:</label>
+        <br>
+        <textarea name="text" id="mensagem2" cols="40" rows="5"></textarea>
+        <br>
+        <input type="submit" name="Enviar" onclick="alert('Enviado.')">
+    </section>
+    <section>
+        <h2>Mensagens:</h2>
+        <article>
+            <h3>In massa orci</h3>
+            <p>ornare quis nulla ut, faucibus pulvinar eros. Aliquam et nisi arcu.</p>
+        </article>
+        <article>
+            <h3>Mauris pellentesque</h3>
+            <p>dictum ipsum ut dapibus. Proin vehicula nulla hendrerit, dignissim ex quis, eleifend eros.</p> 
+        </article>
+        <article>
+            <h3>Aliquam et urna</h3>
+            <p>vitae metus dictum lacinia. Nam euismod eleifend ipsum. Vivamus sollicitudin eleifend tellus et tempus.</p>
+        </article>
+    </section>
+</body>
+</html>
