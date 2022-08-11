@@ -1,0 +1,55 @@
+Defina o que é HTML e qual é sua relação com XML e SGML.
+
+	São todos elementos de marcação de texto usado para fins específicos.
+
+Sobre Marketing Digital:
+Qual o tipo de consumidor atual e como atingi-los pela Internet?
+	
+	A maioria dos consumidores são pessoas que consomem redes sócias ou questão de redes de publicação de videos. 
+
+Qual é a importância de apresentar sua empresa utilizando a Internet?
+	
+	Pois e a maior rede do mundo de divulgação global e o melhor elemento para publicação de qualquer tipo de coisa.
+
+Como organizar o conteúdo do site da empresa?
+	
+	Tem que ser organizado de forma concisa para melhor compreendimento do usuário, para passar a mensagem da melhor forma possível.
+
+Qual a diferença da Web 3.0 para as Web anteriores?
+
+	A maior diferença da Web 3.0 é a mobilidade, mas com maior controle sobre privacidade, por parte do usuário, e menor controle de grupos ou autoridades ao reduzir o uso de intermediários para interações.
+
+Quais as vantagens e desvantagens os padrões da Web definidos pela W3C?
+	Vantagens: Uniformidade, Simplicidade, Liberdade, Separação de Estrutura e Apresentação, Facilidade de Criação e Manutenção, Acessibilidade, Extensibilidade, Estabilidade.
+
+	Desvantagens: Implementações discordantes e Aumento da complexidade inicial.
+
+Defina e explique de forma sucinta os seguintes itens:
+IP: É um rótulo numérico atribuído a cada dispositivo conectado a uma rede de computadores que utiliza o Protocolo de Internet para comunicação.
+HTTP: O Hypertext Transfer Protocol, sigla HTTP é um protocolo de comunicação utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a base para a comunicação de dados da World Wide Web.
+Cookies (web): protocolo de comunicação HTTP usado na Internet, é um pequeno arquivo de computador ou pacote de dados enviados por um site de Internet para o navegador do usuário
+Pesquise e crie um quadro com as principais diferenças entre HTML e HTML5.
+Foi a facilitação na chamada de certas funções e a adição da semântica no html.	
+
+O que são e como podem ser utilizados os IFrames em um HTML?
+
+		Iframe e utilizado para implementação de um site dentro de outro site.
+
+Sobre CSS3 (responda com exemplos):
+O que é?
+	E um elemento usado para estilizar certas coisas.
+Como escrever um estilo para um ID?
+	#nome {estilo}
+Como escrever um estilo para uma classe?
+	.nome {estilo}
+Como escrever um estilo para uma tag dentro de uma classe?
+	.nome tag {estilo}
+Como escrever um estilo para uma tag?
+	tag {estilo}
+O que é Box Model?
+	E o modelo feito para todo elemento html e sua estruturação de compostas pelos elementos content, padding, border e margin.
+O que é Floating?
+			Determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr
+O que o Floating muda do desenvolvimento Web atual em relação ao modo antigo (com uso de tabelas na construção do site)?
+	Facilita a formatação dos elementos.
+

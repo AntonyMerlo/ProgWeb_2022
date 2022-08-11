@@ -20,6 +20,7 @@ a{
 }
 img{
     width: 100%;
+    padding: 0 0.5rem;
 }
 li{
     list-style: none;
@@ -35,6 +36,10 @@ body > header h1{
 body > header h2{
     font-size: 0.9rem;
     padding-bottom: 5px;
+}
+body{
+    max-width: 900px;
+    margin: 0 auto;
 }
 #signup a:nth-child(1){
     border-right: 2px solid white;
@@ -87,4 +92,37 @@ body > header h2{
     padding: 20px 0;
     line-height: 25px;
 }
-
+#news > article{
+    position: relative;
+}
+#news > article > header{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+#news header > h1 > a{
+    color: white;
+    text-shadow: 0.25em 0.15em 0.3em black;
+}
+#news > article p:nth-of-type(1)::first-letter{
+   font-size: 2rem;
+}
+#news > article p{
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+#news > article footer{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #f4655f;
+    color: white;
+}
+#news > article footer a{
+    color: white;
+}
+body > footer{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #080d0d;
+    color: white;
+}
