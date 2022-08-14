@@ -1,0 +1,67 @@
+body{
+    font-family: 'Tiro Gurmukhi', serif;
+    background-image: url("img/fundo.jpg");
+}
+nav, footer{
+    background-color: #138484;
+}
+footer{
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+a{
+    text-decoration: none;
+}
+
+header, h2, h1{
+    text-shadow: 0.1rem 0.1rem 0.2rem grey;
+}
+#copy{
+    padding-top: 0.5rem;
+}
+.container > section{
+    background-color: #6CD6D6;
+    color: white;
+}
+.btn-custom{
+    padding: 0.5rem;
+    margin: 0.3rem;
+    background-color: #FFA255;
+    border-color: #FFA255;
+    border-radius: 1rem;
+}
+@media (max-width:979px){
+    #adm{
+        display: inline;
+        background-color: #FFA255;
+        padding: 1rem;
+        border-radius: 5rem;
+        right: 1em;
+        bottom: 1em;
+    }
+}
+
+@media (min-width:980px){
+    #adm{
+        display: inline;
+        background-color: #FFA255;
+        padding: 0.6rem;
+        border-radius: 5rem;
+        right: 1em;
+    }
+}
+.btn-custom:hover{
+    background-color: #DC7520;
+}
+.btn-custom2{
+    background-color: #FFA255;
+    border-color: #FFA255;
+}
+.btn-custom2:hover, .btn-custom2:visited{
+    background-color: #DC7520;
+}
+figure > img:nth-child(2){
+    border-left:2px dotted #138484;
+    border-right:2px dotted #138484;
+}
