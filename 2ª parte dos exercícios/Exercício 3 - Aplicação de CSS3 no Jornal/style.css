@@ -5,6 +5,8 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: green;
+    width: 60em;
+    margin: 0 auto;
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -40,11 +42,7 @@ body > header h2{
     font-size: 0.9rem;
     padding-bottom: 5px;
 }
-body{
-    max-width: 900px;
-    margin: 0 auto;
-}
-#menu, #related, #news > article, footer{
+#related, #news > article, footer{
     background-color: white;
 
 }
@@ -65,26 +63,32 @@ body{
 #menu ul li:nth-child(1){
     border-top: 5px solid #D93D3D;
     padding: 17px;
+    background-color: white;
 }
 #menu ul li:nth-child(2){
     border-top: 5px solid #97BF5A;
     padding: 17px;
+    background-color: white;
 }
 #menu ul li:nth-child(3){
     border-top: 5px solid #5B4282;
     padding: 17px;
+    background-color: white;
 }
 #menu ul li:nth-child(4){
     border-top: 5px solid #FF8932;
     padding: 17px;
+    background-color: white;
 }
 #menu ul li:nth-child(5){
     border-top: 5px solid #19B6E9;
     padding: 17px;
+    background-color: white;
 }
 #menu ul li:nth-child(6){
     border-top: 5px solid #E84C8B;
     padding: 17px;
+    background-color: white;
 }
 #related{
     background-color: #2A2F33;
