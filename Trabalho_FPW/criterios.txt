@@ -1,0 +1,17 @@
+- Ultilizar a semantica html5
+- Estilos seguindo o css3 
+- Responsividade 
+- Ter uma fonte externa 
+- Botões e Inputs personalizados
+- Uma boa opção de cores, tomando cuidado com o contraste.
+
+- O minimo que tem que ter
+    - Header com opções de navegação
+    - Um footer com informações de contato e copyright
+    - Área de navegação com imagens referentes e a descrição de 5 locais de Alegre-Es.
+    - Informações geograficas com o mapa da região
+    - Formulário de contato (dica: talvez um modal fique legal)
+    - Pagina de adm do site
+    - Header
+    - Footer
+    - Barra lateral com opções de navegação administrativa
