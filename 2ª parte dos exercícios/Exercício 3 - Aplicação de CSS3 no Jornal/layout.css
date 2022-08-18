@@ -1,0 +1,41 @@
+#menu > ul > li{
+    display: inline;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+body > header{
+    position: relative;
+    grid-column: 1/3;
+}
+#menu{
+    height: 75px;
+    grid-column: 1;
+}
+#related{
+    grid-column: 2;
+    grid-row: 2/5;
+}
+#signup{
+    position: absolute;
+    right: 1rem;
+    bottom: 1.2rem
+}
+body > footer{
+    margin-right: 0.5rem;
+}
+#news > article{
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+
+/* Como usar grades CSS para posicionar elementos em uma página da web?
+    Você display grid e define as posições de cada elemento.
+
+Como usar flexboxes para posicionar elementos em um contêiner? 
+    Você display flex e define quais elementos vão ficar flexiveis*/
